@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "SwiftSoup",
+      "reason": null,
+      "repositoryURL": "https://github.com/scinfu/SwiftSoup.git",
+      "version": "1.4.2"
+    }
+  ],
+  "version": 1
+}
