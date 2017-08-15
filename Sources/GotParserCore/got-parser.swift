@@ -153,7 +153,7 @@ public final class GotParser {
                     }
                     assert(character.name != "UNKNOWN")
                 }
-                print("\(character.name)")
+//                print("\(character.order) \(character.name)")
                 
                 // Get seasons
                 let descriptionElements: Elements = try characterElement.getElementsByClass("description")
@@ -258,8 +258,8 @@ public final class GotParser {
                                         }
                                         let providedTimeOnScreenOverall = Float(overallMinutes) + Float(overallSeconds)/60.0
                                         if (providedTimeOnScreenOverall != timeOnScreenOverall) {
-                                            print("providedTimeOnScreenOverall = \(providedTimeOnScreenOverall)")
-                                            print("timeOnScreenOverall         = \(timeOnScreenOverall)")
+//                                            print("providedTimeOnScreenOverall = \(providedTimeOnScreenOverall)")
+//                                            print("timeOnScreenOverall         = \(timeOnScreenOverall)")
                                             //assert(false)
                                         }
                                     }
